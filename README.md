@@ -10,27 +10,37 @@ This project implements an interactive autocomplete system that uses a Trie data
 ## Features
 
  **Efficient Prefix Search**: Fast autocomplete suggestions using Trie data structure
+ 
 **8 Themed Word Collections** : Pre-loaded word lists including:
 
 Ocean (marine life, nautical terms)
+
 Space (astronomy, celestial objects)
+
 Cooking (culinary terms, kitchen items)
+
 Technology (computing, digital terms)
+
 Fantasy (magical creatures, medieval elements)
+
 Sports (games, equipment, competitions)
+
 Music (instruments, musical terms)
+
 Mythical Creatures (legendary beings from various cultures)
 
 
 **Trie Visualization**: View the structure of your loaded Trie
+
 **Interactive Demo**: Command-line interface for testing autocomplete
+
 **Flexible Theme Matching**: Fuzzy matching for theme selection
 
 ## Usage
 
 ### Interactive Mode
 Run the program and follow the prompts:
-bashpython main.py
+ main.py
 
 Select a theme from the available options
 Specify number of words to load (default: 30)
