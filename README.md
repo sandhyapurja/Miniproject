@@ -40,11 +40,45 @@ Mythical Creatures (legendary beings from various cultures)
 
 ### Interactive Mode
 Run the program and follow the prompts:
- main.py
+ **main.py**
 
 Select a theme from the available options
+
 Specify number of words to load (default: 30)
+
 View the Trie structure and sample words
+
 Enter prefixes to get autocomplete suggestions
+
 Type quit to exit
+
+## How It Works
+
+**Word Loading**: Pre-defined word lists are stored in the THEME_WORDS dictionary
+
+**Randomization**: Words are shuffled to provide variety each run
+
+**Trie Construction**: Selected words are inserted into the Trie data structure
+
+**Prefix Search**: User enters a prefix, and the Trie returns all matching words
+
+## Limitations
+
+Maximum words per theme varies (55-60 words typically)
+
+Requesting more words than available will use all available words
+
+Theme matching is case-insensitive and uses partial matching
+
+## Error Handling
+The application handles:
+
+Invalid theme names (shows available themes)
+
+Invalid number inputs (uses default of 30)
+
+Empty prefixes
+
+Keyboard interrupts (Ctrl+C)
+General exceptions during operation
 
